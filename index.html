@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>じゃんけんゲーム</title>
+    <style>
+        #result {
+            font-weight: bold;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>じゃんけんゲーム</h1>
+    <button id="rock">グー</button>
+    <button id="paper">パー</button>
+    <button id="scissors">チョキ</button>
+    <div>
+        <h2>プレイヤー</h2>
+        <img id="playerChoice" src="./image/th (1).jpg" alt="プレイヤーの手">
+    </div>
+    <div>
+        <h2>コンピューター</h2>
+        <img id="computerChoice" src="/image/th (2).jpg" alt="コンピューターの手">
+    </div>
+    <div id="result"></div>
+
+    <script src="janken.js"></script>
+</body>
+</html>
